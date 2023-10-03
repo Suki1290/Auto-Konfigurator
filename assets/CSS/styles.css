@@ -1,0 +1,80 @@
+/* Globale Stile */
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Stile für Abschnitte */
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #a16868;
+    border-radius: 10px;
+}
+
+/* Stile für Eingabefelder und Schaltflächen */
+select,
+button {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #7d7575;
+    border-radius: 5px;
+}
+
+/* Stile für Labels */
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Stile für Preis- und Schaltflächen */
+#product-price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#generate-offer,
+#buy,
+#delete {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+#generate-offer,
+#buy,
+#delete:hover {
+    background-color: #0056b3;
+}
+
+#checkout:hover{
+    background-color:red
+
+}

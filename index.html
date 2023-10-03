@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <title>Auto-Konfigurator</title>
+</head>
+<body>
+    <header>
+        <h1>Auto-Konfigurator</h1>
+    </header>
+    <main>
+        <section id="product-selection">
+            <label for="product-select">Wählen Sie ein Auto:</label>
+            <select id="product-select">
+                <option value="car1">Auto 1</option>
+                <option value="car2">Auto 2</option>
+                <!-- Weitere Autooptionen hier -->
+            </select>
+        </section>
+        <section id="product-config">
+            <h2>Autoeigenschaften:</h2>
+            <div id="product-properties">
+                <label for="color">Farbe:</label>
+                <select id="color" name="color">
+                    <option value="Rot">Rot</option>
+                    <option value="Blau">Blau</option>
+                    <option value="Grün">Grün</option>
+                </select>
+
+                <label for="engine">Motorgröße:</label>
+                <select id="engine">
+                    <option value="Klein">Klein</option>
+                    <option value="Mittel">Mittel</option>
+                    <option value="Groß">Groß</option>
+                </select>
+
+                <label for="features">Ausstattung:</label>
+                <select id="features">
+                    <option value="Basis">Basis</option>
+                    <option value="Standard">Standard</option>
+                    <option value="Luxus">Luxus</option>
+                </select>
+            </div>
+        </section>
+        <section id="price-offer">
+            <h2>Preis:</h2>
+            <div id="product-price">0 €</div>
+            <button id="generate-offer">Angebot generieren</button>
+        </section>
+
+        <section id="shopping-basket">
+            <h1>Warenkorb</h1>
+            <div id="basket-items"></div>
+            <button id="buy">Hinzufügen
+            </button>
+            <button id="checkout">Zahlungspflichtig bestellen</button>
+        </section>
+
+        <section id="delete-button">
+            <h1>Elemente entfernen </h1>
+    <div id="delete-items"></div>
+    <button id="delete">Löschen</button>
+</section>
+
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
